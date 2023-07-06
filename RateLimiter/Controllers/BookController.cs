@@ -9,7 +9,7 @@ namespace RateLimiter.Controllers
         // [EnableRateLimiting("fixed")]
         // [EnableRateLimiting("sliding")]
         // [EnableRateLimiting("token")]
-        [HttpGet]
+        [HttpGet("Get")]
         public IActionResult Get()
         {
             return Ok();
